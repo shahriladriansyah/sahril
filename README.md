@@ -80,7 +80,7 @@ Tetap terhubung dengan saya melalui:
 
 - LinkedIn: [Shahril Adriansyah](https://linkedin.com/)  
 
-- GitHub: [GitHub.com/Abdullah-syafii](https://github.com/shahriladriansyah)  
+- GitHub: [GitHub.com/sahriladriansyah](https://github.com/shahriladriansyah)  
 
 
 
