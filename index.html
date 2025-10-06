@@ -1,123 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Biodata Saya - www.malasngoding.com</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Sahril</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="kotak">
- 
-		<div class="judul">
-			<h1>BIODATA DIRI</h1>
-		</div>
- 
-		<div class="blok">
- 
-			<h2>Informasi</h2>			
-			
-			<div class="kiri">
-				<img src="foto.jpg">				
-			</div>
- 
-			<div class="kanan">
-				<table>
-					<tr>
-						<th>Nama</th>
-						<th>:</th>
-						<td>Santono Sujatmiko</td>
-					</tr>
-					<tr>
-						<th>Tempat</th>
-						<th>:</th>
-						<td>Medan</td>
-					</tr>
-					<tr>
-						<th>Tgl.Lahir</th>
-						<th>:</th>
-						<td>15 September 1994</td>
-					</tr>
-					<tr>
-						<th>Agama</th>
-						<th>:</th>
-						<td>Islam</td>
-					</tr>
-					<tr>
-						<th>Alamat</th>
-						<th>:</th>
-						<td>Jl. Merpati Putih, No. 187, Blok - Cimahi, Bandung</td>
-					</tr>
-					<tr>
-						<th>Email</th>
-						<th>:</th>
-						<td>santono@malasngoding.com</td>
-					</tr>
-					<tr>
-						<th>No.HP</th>
-						<th>:</th>
-						<td>+62812-3456-7890</td>
-					</tr>
-					<tr>
-						<th>Website</th>
-						<th>:</th>
-						<td><a href="https://www.malasngoding.com">www.malasngoding.com</a></td>
-					</tr>
-				</table>
-				
-			</div>
- 
-		</div>		
- 
-		<div class="blok">
- 
-			<h2>Pendidikan</h2>			
-			
-			<div>
-				<ul>
-					<li><b>2000 - 2006</b> SD 1 Negeri Medan</li>
-					<li><b>2006 - 2009</b> SMP 1 Negeri Jakarta</li>
-					<li><b>2009 - 2012</b> SMA 1 Negeri Jakarta</li>
-					<li><b>2012 - 2016</b> Universitas Indonesia</li>
-				</ul>
-			</div>
- 
-		</div>
- 
-		<div class="blok">
- 
-			<h2>Pengalaman Kerja</h2>
-			
-			<div>
-				<ul>
-					<li>
-						<b>2017 - 2019</b> - <i>Back-End Developer</i> - di Di PT. Teknologi Indonesia
-					</li>
-					<li>
-						<b>2020 - Now</b> - <i>Full Stack Developer</i> - di Di PT. BOX Tech AI Indonesia
-					</li>
-				</ul>
-			</div>
- 
-		</div>
- 
-		<div class="blok">
- 
-			<h2>Keahlian</h2>			
-			
-			<div>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>PHP</li>
-					<li>CodeIgniter</li>
-					<li>Laravel</li>
-					<li>NodeJS</li>					
-				</ul>
-			</div>
- 
-		</div>
-	</div>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Sahril<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m <span>Sahril</span></h1>
+      <p>Developer | Photographer | Designer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/400x400" alt="Profile photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a creative developer who loves building beautiful, functional, and user-friendly websites. 
+      With experience in design, photography, and coding, I enjoy blending art and technology to make something meaningful.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Simple landing page design using HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Photography portfolio with responsive layout.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Modern web design prototype built from Figma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in working together? Let’s connect!</p>
+    <a href="mailto:sahril@example.com" class="btn">Say Hello</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sahril. All rights reserved.</p>
+  </footer>
 </body>
 </html>
