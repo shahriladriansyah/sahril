@@ -88,26 +88,53 @@ body {
   background: #005fcc;
 }
 
-/* Pastikan nama class gambar sama dengan HTML kamu */
-.hero-image img {
-  width: 220px;                /* dikecilin biar nggak mendominasi layar */
-  height: 220px;               /* biar tetap proporsional */
-  border-radius: 50%;          /* tetap bulat sempurna */
-  object-fit: cover;           /* biar gambar nggak ketarik */
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* bayangan halus */
-  transition: transform 0.3s ease; /* efek animasi halus */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ubah dari space-between ke center */
+  gap: 60px; /* kasih jarak antara teks dan foto */
+  padding: 120px 80px;
+  background: #f0f4ff;
+  flex-wrap: wrap; /* biar responsive di HP */
+  text-align: left;
 }
 
-.hero-img img:hover {
-  transform: scale(1.05);      /* efek zoom kecil pas di-hover */
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center; /* biar fotonya center di bagiannya */
+  align-items: center;
+}
+
+.hero-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
   .hero-img img {
     width: 160px;
     height: 160px;
   }
 }
+
 
 
 /* === ABOUT === */
