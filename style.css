@@ -90,11 +90,25 @@ body {
 
 /* Pastikan nama class gambar sama dengan HTML kamu */
 .hero-image img {
-  width: 350px;
-  border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  object-fit: cover;
+  width: 220px;                /* dikecilin biar nggak mendominasi layar */
+  height: 220px;               /* biar tetap proporsional */
+  border-radius: 50%;          /* tetap bulat sempurna */
+  object-fit: cover;           /* biar gambar nggak ketarik */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* bayangan halus */
+  transition: transform 0.3s ease; /* efek animasi halus */
 }
+
+.hero-img img:hover {
+  transform: scale(1.05);      /* efek zoom kecil pas di-hover */
+}
+
+@media (max-width: 768px) {
+  .hero-img img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
 
 /* === ABOUT === */
 .about {
