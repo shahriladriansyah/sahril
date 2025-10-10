@@ -1,17 +1,23 @@
-/* Google Font */
-body {
+/* === RESET & FONT === */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Poppins", sans-serif;
   background-color: #f8f9fa;
   color: #222;
   scroll-behavior: smooth;
 }
 
-/* Navbar */
+/* === NAVBAR === */
 .navbar {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
   background: #fff;
   display: flex;
   justify-content: space-between;
@@ -44,14 +50,16 @@ body {
   color: #0077ff;
 }
 
-/* Hero */
+/* === HERO === */
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 120px 80px;
+  padding: 160px 80px 120px; /* <– Tambah padding-top biar nggak ketiban navbar */
   background: #f0f4ff;
+  flex-wrap: wrap;
 }
+
 .hero-text {
   max-width: 500px;
 }
@@ -80,13 +88,15 @@ body {
   background: #005fcc;
 }
 
-.hero-img img {
+/* Pastikan nama class gambar sama dengan HTML kamu */
+.hero-image img {
   width: 350px;
   border-radius: 50%;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  object-fit: cover;
 }
 
-/* About */
+/* === ABOUT === */
 .about {
   padding: 100px 80px;
   text-align: center;
@@ -102,7 +112,7 @@ body {
   line-height: 1.7;
 }
 
-/* Projects */
+/* === PROJECTS === */
 .projects {
   padding: 100px 80px;
   background: #fff;
@@ -136,7 +146,7 @@ body {
   color: #0077ff;
 }
 
-/* Contact */
+/* === CONTACT === */
 .contact {
   padding: 100px 80px;
   text-align: center;
@@ -156,7 +166,7 @@ body {
   background: #005fcc;
 }
 
-/* Footer */
+/* === FOOTER === */
 footer {
   background: #fff;
   text-align: center;
