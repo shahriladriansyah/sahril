@@ -7,7 +7,7 @@ It’s a reflection of my growth and creativity as a web developer & designer.
 
 ## 🔗 Links
 
-- **Vercel (Live Site):** [My Portfolio](#) *(https://sahril.vercel.app/#contact)*  
+- **Vercel (Live Site):** [My Portfolio](#) *(https://sahril-97zh.vercel.app/)*  
 - **GitHub:** [github.com/shahriladriansyah](https://github.com/shahriladriansyah)  
 - **LinkedIn:** [Shahril Adriansyah](https://www.linkedin.com/in/shahril-adriansyah-3640b1382/)  
 
