@@ -1,91 +1,55 @@
-# Shahril Adriansyah – Design Project
+# 🌐 Personal Website
 
-
-
-Project ini berisi desain UI/UX modern untuk website  
-
-Tujuannya adalah menampilkan konsep visual yang clean, responsive, dan mudah dipahami oleh pengguna.  
-
-
+This is my **personal website** where I showcase my **portfolio** and blog about **web development**.  
+It’s a reflection of my growth and creativity as a web developer & designer.
 
 ---
 
+## 🔗 Links
 
-
-## 📌 Pages
-
-- *Home Page* – Tampilan Utama berisi informasi inti project.
-
-- *About Page* – Penjelasan singkat tentang identitas dan tujuan.
-
-- *resume Page* – Showcase Riwayat hidup tentang saya 
-
-- *Project Page* – menampilkan suatu project
-
-- *Contact page* - Informasi kontak dan form interaksi
-
-
+- **Vercel (Live Site):** [My Portfolio](#) *(https://sahril.vercel.app/#contact)*  
+- **GitHub:** [github.com/shahriladriansyah](https://github.com/shahriladriansyah)  
+- **LinkedIn:** [Shahril Adriansyah](https://www.linkedin.com/in/shahril-adriansyah-3640b1382/)  
 
 ---
 
+## 📄 Pages
 
-
-## 🔧 Teknologi & Tools
-
-Project ini didesain dengan memanfaatkan beberapa tools:
-
-- [Figma](https://www.figma.com/proto/75upjyASezklwj3j8ulOow/protofolio?node-id=1-2) – Desain UI/UX
-
-- [GitHub](https://github.com/shahriladriansyah/sahril) – Repository & version control
-
-
+- **Home** – Main landing page introducing the website.  
+- **About** – Brief information about me and my goals.  
+- **Experiences** – Showcases my journey, projects, and work experience.  
+- **Contact Me** – Contains a form and links for communication.  
+- 
+## References – Acknowledgements to contributors and inspirations:  
+  -  Asfakur Nariz
 
 ---
 
+## 🛠️ Technologies Used
 
-
-## 🎨 Preview
-
-Preview desain dapat dilihat di sini:  
-
-👉 [Design Preview (Figma Link)](https://www.figma.com/) (ganti dengan link project Figma kamu)
-
-
-
----
-
-
-
-## 🚀 Progress
-
-- [x] Mencari Referensi
-
-- [x] Membuat Prototype
-
-- [x] Mencari Readme
-
-- [ ] Membuat HTML
-
-
-
-
+- **HTML** – Core website structure  
+- **CSS (Internal)** – For styling and layout  
+- **Figma** – UI/UX design & prototyping  
+- **Visual Studio Code** – Main code editor  
+- **GitHub** – Version control and repository management  
+- **Vercel** – Website deployment  
 
 ---
 
+## 🎨 Prototype Preview
 
-
-## 📬 Contact & Social Media
-
-Tetap terhubung dengan saya melalui:  
-
-- LinkedIn: [Shahril Adriansyah](https://linkedin.com/)  
-
-- GitHub: [GitHub.com/sahriladriansyah](https://github.com/shahriladriansyah)  
-
-
+👉 [**Prototype Preview**](#) *(insert your actual Figma link here)*  
 
 ---
 
+## 🚀 Progress Timeline
 
+- **Week 1:** Conducted research and gathered references for website design concepts.  
+- **Week 2:** Started creating the initial design prototype in Figma.  
+- **Week 3:** Finalized the design prototype in Figma with refined layout and user experience.  
+- **Week 4:** Initiated the coding phase in Visual Studio Code and established repository integration with GitHub for version control.  
+- **Week 5:** Created the main homepage in HTML based on the finalized Figma design, including basic structure, navigation, and initial content, and deployed to Vercel.
 
-💡 Project ini masih dalam tahap pengembangan. Feedback sangat diterima!
+---
+
+💡 *This project is still in progress. Feedback and suggestions are highly appreciated!* 🙌
