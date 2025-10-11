@@ -77,6 +77,7 @@ body {
   font-size: 18px;
   color: #555;
 }
+
 .hero .btn {
   display: inline-block;
   margin-top: 25px;
@@ -175,22 +176,49 @@ body {
 .contact p {
   color: #555;
   font-size: 17px;
-}
-.contact .btn {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 12px 25px;
-  background: #0077ff;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.contact .btn:hover {
-  background: #005fcc;
-  transform: scale(1.05);
+  margin-bottom: 40px;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  width: 140px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  background: #0077ff;
+  color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,119,255,0.3);
+}
+
+.contact-item:hover img {
+  transform: scale(1.15);
+  filter: brightness(0) invert(1);
+}
 
 footer {
   background: #fff;
@@ -220,6 +248,17 @@ footer {
 
   .hero-text p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    width: 180px;
   }
 }
 
