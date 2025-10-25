@@ -31,6 +31,7 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+
 .navbar .logo span {
   color: #0077ff;
 }
@@ -40,12 +41,14 @@ body {
   display: flex;
   gap: 25px;
 }
+
 .navbar a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: 0.2s;
 }
+
 .navbar a:hover {
   color: #0077ff;
 }
@@ -70,9 +73,11 @@ body {
   font-size: 48px;
   margin-bottom: 10px;
 }
+
 .hero-text h1 span {
   color: #0077ff;
 }
+
 .hero-text p {
   font-size: 18px;
   color: #555;
@@ -88,12 +93,13 @@ body {
   text-decoration: none;
   transition: 0.3s;
 }
+
 .hero .btn:hover {
   background: #005fcc;
   transform: scale(1.05);
 }
 
-
+/* Hero Image */
 .hero-image {
   display: flex;
   justify-content: center;
@@ -113,15 +119,17 @@ body {
   transform: scale(1.08);
 }
 
-
+/* ========== ABOUT SECTION ========== */
 .about {
   padding: 100px 80px;
   text-align: center;
 }
+
 .about h2 {
   font-size: 32px;
   margin-bottom: 20px;
 }
+
 .about p {
   max-width: 700px;
   margin: 0 auto;
@@ -129,35 +137,72 @@ body {
   line-height: 1.7;
 }
 
+/* Skills Icons */
+.skills {
+  margin-top: 40px;
+}
+
+.skills h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.skill-icons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-icons img:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
 
 .projects {
   padding: 100px 80px;
   background: #fff;
   text-align: center;
 }
+
 .projects h2 {
   font-size: 32px;
   margin-bottom: 40px;
 }
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
 }
+
 .project-card {
   background: #f8f8ff;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-  transition: 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
+
 .project-card img {
   width: 100%;
   border-radius: 8px;
 }
+
 .project-card h3 {
   margin-top: 15px;
   color: #0077ff;
@@ -169,10 +214,12 @@ body {
   text-align: center;
   background: #f0f4ff;
 }
+
 .contact h2 {
   font-size: 32px;
   margin-bottom: 15px;
 }
+
 .contact p {
   color: #555;
   font-size: 17px;
@@ -249,6 +296,10 @@ footer {
   .hero-text p {
     font-size: 16px;
   }
+
+  .about, .projects, .contact {
+    padding: 80px 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -260,14 +311,23 @@ footer {
   .contact-item {
     width: 180px;
   }
-}
-
-@media (max-width: 480px) {
+  
   .navbar {
     padding: 15px 30px;
   }
+}
 
-  .projects, .about, .contact {
-    padding: 80px 40px;
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .skills h3 {
+    font-size: 20px;
+  }
+
+  .skill-icons img {
+    width: 50px;
+    height: 50px;
   }
 }
