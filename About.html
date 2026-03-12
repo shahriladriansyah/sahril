@@ -1,0 +1,87 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About | Sahril Portfolio</title>
+
+    <meta
+      name="description"
+      content="About Sahril — Developer, Photographer, and Designer."
+    />
+
+    <link rel="icon" href="favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+      <div class="logo">Sahril<span>.</span></div>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="about">
+      <h2>About Me</h2>
+
+      <p>
+        I’m a passionate designer and photographer who loves creating visually
+        stunning and meaningful works. I enjoy combining creativity with
+        technology to produce designs that are not only beautiful but also
+        functional.
+      </p>
+
+      <div class="skills">
+        <h3>Tools & Skills</h3>
+
+        <div class="skill-icons">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
+            alt="Photoshop"
+          />
+
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968472.png"
+            alt="Illustrator"
+          />
+
+          <img src="asset/Pixellab.png" alt="Pixellab" />
+
+          <img src="asset/Canva.jpeg" alt="Canva" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Sahril. All rights reserved.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

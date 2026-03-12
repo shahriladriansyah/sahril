@@ -1,0 +1,103 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home | Sahril Portfolio</title>
+
+    <meta
+      name="description"
+      content="Portfolio Sahril — Developer, Photographer, and Designer."
+    />
+
+    <link rel="icon" href="favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+      <div class="logo">Sahril<span>.</span></div>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I’m <span>Sahril</span></h1>
+
+        <p>Developer | Photographer | Designer</p>
+
+        <a href="projects.html" class="btn">View My Work</a>
+
+        <div class="hero-social">
+          <a href="mailto:sahriladriansyah20@gmail.com" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+              alt="Email"
+            />
+          </a>
+
+          <a href="https://github.com/shahriladriansyah" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+              alt="GitHub"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shahril-adriansyah-3640b1382/"
+            target="_blank"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              alt="LinkedIn"
+            />
+          </a>
+
+          <a href="https://wa.me/6281234567890" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+              alt="WhatsApp"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="asset/foto.jpg" alt="Profile photo of Sahril" />
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Sahril. All rights reserved.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
