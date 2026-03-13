@@ -1,15 +1,15 @@
-```html
+```html id="m8m0zq"
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>About | Portfolio</title>
+    <title>Contact | Sahril Portfolio</title>
 
     <meta
       name="description"
-      content="About Portfolio — Developer, Photographer, and Designer."
+      content="Contact Sahril for collaboration or projects."
     />
 
     <link rel="icon" href="favicon.png" />
@@ -41,39 +41,37 @@
       </nav>
     </header>
 
-    <section class="about">
-      <h2>About Me</h2>
+    <section class="contact">
+      <h2>Contact Me</h2>
 
-      <p>
-        I’m a passionate designer and photographer who loves creating visually
-        stunning and meaningful works. I enjoy combining creativity with
-        technology to produce designs that are not only beautiful but also
-        functional.
-      </p>
+      <p>Interested in working together? Let’s connect!</p>
 
-      <div class="skills">
-        <h3>Tools & Skills</h3>
+      <form
+        action="https://formsubmit.co/sahriladriansyah20@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
 
-        <div class="skill-icons">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png"
-            alt="Photoshop"
-          />
+        <input type="email" name="email" placeholder="Your Email" required />
 
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/5968/5968472.png"
-            alt="Illustrator"
-          />
+        <textarea name="message" placeholder="Your Message" required></textarea>
 
-          <img src="asset/Pixellab.png" alt="Pixellab" />
+        <button type="submit" class="btn">Send Message</button>
 
-          <img src="asset/Canva.jpeg" alt="Canva" />
-        </div>
-      </div>
+        <input type="hidden" name="_captcha" value="false" />
+
+        <input
+          type="hidden"
+          name="_subject"
+          value="Pesan dari Portfolio Website Sahril"
+        />
+
+        <input type="hidden" name="_template" value="table" />
+      </form>
     </section>
 
     <footer>
-      <p>© 2026 Portfolio. All rights reserved.</p>
+      <p>© 2026 Sahril. All rights reserved.</p>
     </footer>
 
     <script src="script/script.js"></script>

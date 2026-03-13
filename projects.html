@@ -1,0 +1,92 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects | Sahril Portfolio</title>
+
+    <meta
+      name="description"
+      content="Projects by Sahril — Photography, Graphic Design, and UI Design."
+    />
+
+    <link rel="icon" href="favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+      <div class="logo">Portfolio<span>.</span></div>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="asset/tester.jpeg" alt="Photography Project" />
+
+          <h3>Photography</h3>
+
+          <p>Professional model photography</p>
+
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="asset/desain.jpeg" alt="Graphic Design Project" />
+
+          <h3>Graphic Design</h3>
+
+          <p>Modern visual design</p>
+
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="asset/test2.jpg" alt="Figma UI Project" />
+
+          <h3>Figma UI</h3>
+
+          <p>Modern UI design</p>
+
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Sahril. All rights reserved.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
